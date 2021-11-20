@@ -191,7 +191,7 @@ export default {
   background: rgb(1, 3, 119);
   position: relative;
 
-  left: 563px;
+  left: 442px;
   z-index: 9999;
   bottom: 56px;
   border: 2px solid #fff;

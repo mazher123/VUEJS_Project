@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row filters">
       <div class="col-6">
         <p>Matches for your requirements : 25 results</p>
       </div>
@@ -88,7 +88,7 @@
       </div>
     </div>
 
-    <div class="row" v-for="index in 10" :key="index">
+    <div class="row filters" v-for="index in 10" :key="index">
       <div class="col-2">
         <img
           src="https://static-01.daraz.com.bd/p/b677601a70d4d080e1dfbc0b32d6e28e.jpg_340x340q80.jpg_.webp"
@@ -154,7 +154,7 @@
       </div>
       <div class="col-2">
         <custom-button
-          width="200px"
+          width="150px"
           height="50px"
           labelcolor="#fff"
           color=" rgb(1, 3, 119)"
@@ -199,4 +199,5 @@ export default {
 .filters {
   margin-bottom: 20px;
 }
+
 </style>
